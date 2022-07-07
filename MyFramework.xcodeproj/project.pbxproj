@@ -11,6 +11,7 @@
 		FFB9E2A12876CD5D00C7C51D /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFB9E2962876CD5D00C7C51D /* MyFramework.framework */; };
 		FFB9E2A62876CD5D00C7C51D /* MyFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB9E2A52876CD5D00C7C51D /* MyFrameworkTests.swift */; };
 		FFB9E2A72876CD5D00C7C51D /* MyFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = FFB9E2992876CD5D00C7C51D /* MyFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFB9E2B12876CDB300C7C51D /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB9E2B02876CDB300C7C51D /* MyClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		FFB9E29A2876CD5D00C7C51D /* MyFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MyFramework.docc; sourceTree = "<group>"; };
 		FFB9E2A02876CD5D00C7C51D /* MyFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFB9E2A52876CD5D00C7C51D /* MyFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFrameworkTests.swift; sourceTree = "<group>"; };
+		FFB9E2B02876CDB300C7C51D /* MyClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				FFB9E2992876CD5D00C7C51D /* MyFramework.h */,
 				FFB9E29A2876CD5D00C7C51D /* MyFramework.docc */,
+				FFB9E2B02876CDB300C7C51D /* MyClass.swift */,
 			);
 			path = MyFramework;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFB9E2B12876CDB300C7C51D /* MyClass.swift in Sources */,
 				FFB9E29B2876CD5D00C7C51D /* MyFramework.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,6 +400,7 @@
 		FFB9E2AE2876CD5D00C7C51D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2G3UR73PZ9;
@@ -412,6 +417,7 @@
 		FFB9E2AF2876CD5D00C7C51D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2G3UR73PZ9;
